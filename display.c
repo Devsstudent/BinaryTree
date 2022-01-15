@@ -1,3 +1,6 @@
+/* Affichage de l'ordered tree (un peu particulier mais fonctionnel et understable) */
+
+
 void	print_level(struct Node *node)
 {
 	printf("\n");

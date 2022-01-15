@@ -1,3 +1,8 @@
+
+
+/* Sort list while its not in order */
+
+
 int	ft_check(struct Node *li)
 {
 	struct Node *buff;
@@ -45,6 +50,8 @@ void	ft_sort_li(struct Node *li)
 		
 }
 
+/* Push to the end of the list */
+
 void	push_to_li(struct Node *li, int value)
 {
 	struct Node *new_node;
@@ -59,6 +66,8 @@ void	push_to_li(struct Node *li, int value)
 	li->right = new_node;
 	return;
 }
+
+/* Browse the binary tree and use push to li for each node of the tree */
 
 void	insert_into_li(struct Node *node, struct Node *li)
 {
@@ -80,6 +89,8 @@ void	insert_into_li(struct Node *node, struct Node *li)
 	}
 	return;
 }
+
+/* Use all previous func together + case of the head of the list */
 
 struct Node	*tree_to_link_list(struct Node *tree)
 {

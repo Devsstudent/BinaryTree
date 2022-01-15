@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "build.c"
-#include "display.c"
-#include "convert_to_double_circular_list.c"
+#include "build.c" //to create the tree
+#include "display.c" //to display it
+#include "convert_to_double_circular_list.c" //to convert tree into li & bubble sort li
 
+/* Function to dispay the double circular linked list */
 void	ft_display_li(struct Node *li)
 {
 	struct Node *buff;

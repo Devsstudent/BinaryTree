@@ -1,5 +1,9 @@
 #include "node.h"
 
+
+/*Creation de l'ordered binary tree*/
+
+
 void	ft_assign(int val, struct Node *head)
 { 	
 	if (head == NULL)
@@ -38,6 +42,11 @@ void	ft_insert(int to_insert, struct Node *tree)
         }
         return;
 }
+
+
+
+/* Ici on peux inserer des valeurs, la preniere valeur doit etre ajouter via ft_assign() */
+
 
 struct Node *build123(void)
 {

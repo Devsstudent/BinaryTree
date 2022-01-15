@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "challenge.h"
 
+/* We create a binary tree, and a convert it to a circular double linked list ordered */
 int	main(int argc,   char *argv[])
 {
 	struct Node *list;
