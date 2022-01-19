@@ -45,7 +45,7 @@ void	ft_insert(int to_insert, struct Node *tree)
 
 
 
-/* Ici on peux inserer des valeurs, la preniere valeur doit etre ajouter via ft_assign() */
+/* Ici on peux inserer des valeurs, la premiere valeur doit etre ajouter via ft_assign() */
 
 
 struct Node *build123(void)

@@ -3,7 +3,8 @@
 #include "challenge.h"
 
 /* We create a binary tree, and a convert it to a circular double linked list ordered */
-int	main(int argc,   char *argv[])
+
+int	main()
 {
 	struct Node *list;
 	list = malloc(sizeof(*list));
@@ -15,8 +16,7 @@ int	main(int argc,   char *argv[])
 	printf("\n\n\n");
 	printf("Linked List :\n");
 	ft_display_li(list);
-	
-	return 1;
+	return 0;
 }
 
 

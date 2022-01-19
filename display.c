@@ -31,7 +31,7 @@ void    ft_display(struct Node *tree) {
 		print_level(tree);
         } 
         if ( tree->left != NULL ) 
-        { 
+	{ 
                 ft_display(tree->left); 
         } 
         if ( tree->right != NULL) 
